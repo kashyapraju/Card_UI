@@ -1,0 +1,76 @@
+ .card {
+    margin-bottom: 100px;
+  }
+  
+  .card img {
+    width: 70px; /* Set the width of the image */
+  height: 70px; /* Set the height of the image to match the width */
+  object-fit: cover; /* Ensures the image covers the square area while maintaining aspect ratio */
+  border-radius: 0; 
+   
+  }
+  
+
+  .card {
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #dee2e6; /* Border to match Bootstrap's default card border */
+    margin-bottom: 20px; /* Spacing between cards */
+  }
+
+  .main_div{
+    padding: 30px;
+    border: 40px;
+  }
+
+
+
+  .main_div {
+    border: 2px solid #dee2e6; /* Light gray border similar to Bootstrap's card border */
+    padding: 20px; /* Padding inside the div */
+    margin: 20px; /* Margin outside the div to separate it from other content */
+    border-radius: 10px; /* Rounded corners for a smoother look */
+    background-color: #ffffff; /* Optional: White background inside the main div */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+  }
+
+  .card-title{
+    margin-top: 10px;
+  } 
+
+
+
+
+
+  .main_div {
+    position: relative;
+    padding: 20px;
+    border: 2px solid #dee2e6;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background for better visibility */
+    border-radius: 50%; /* Makes the controls circular */
+    padding: 10px; /* Adds padding around the icon */
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%; /* Adjusts the width of the control area for better clickability */
+  }
+  
+  .square-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    margin-bottom: 20px;
+  }
+  
